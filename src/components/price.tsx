@@ -47,7 +47,7 @@ function getPrice(items: Items, region?: Region): string | undefined {
 	return formatAmount({
 		amount: price.amount,
 		region: {
-			currency_code: price.currency?.code ?? 'EUR',
+			currency_code: region.currency_code ?? 'EUR',
 			tax_code: region?.tax_code ?? '',
 			tax_rate: region?.tax_rate ?? 0,
 		}
