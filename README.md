@@ -54,9 +54,10 @@ Understanding what options to display was also something that confused me initia
 The main idea here was to provide a `useOptions` hook that make is easier to select the right options that you need and as a secong step provide a default `<Options />` component to render those options.
 
 
-### Challenge 3: Testing / Mocking
+### Challenge 4: Testing / Mocking
 I have to admid I didn't spend too much time trying to figure out how to mock the medusa client. If I would spend a little bit more time to set things up, I would configure the tests to use [https://mswjs.io/](https://mswjs.io/) in order to mock the medusa client.
 In terms of testing, my plan was to use `testing-library` to write component level tests and also to test the hooks.
+
 
 <hr />
 
