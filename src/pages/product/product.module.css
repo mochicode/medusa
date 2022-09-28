@@ -1,0 +1,29 @@
+
+@media screen and (min-width: 992px) {
+	.main {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+	}	
+}
+
+
+.images {
+	list-style-type: none;
+	padding: 0;
+	line-height: 0;
+}
+
+.image {
+	max-width: 100%;
+	margin-block-end: var(--size-3);
+}
+
+.info {
+	padding: var(--size-3);
+	display: flex;
+	justify-content: center;
+}
+
+.info-content {
+	max-width: 440px;
+}

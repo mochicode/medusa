@@ -1,0 +1,1 @@
+export { ProductGrid as default } from './product_grid'

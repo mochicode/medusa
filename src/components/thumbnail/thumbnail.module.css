@@ -1,0 +1,5 @@
+
+.thumbnail {
+	background: var(--thumbnail-fallback, var(--gray-4));
+	max-width: 100%;
+}
